@@ -1,0 +1,289 @@
+body {
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  font-size: 18px;
+  margin: 0 auto;
+  font-feature-settings: "liga" 0;
+}
+
+
+header {
+  z-index: 1;
+}
+
+.header-home {
+  position: fixed;
+  margin: 8%;
+}
+
+
+h1 {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+}
+
+
+#view:hover {
+  text-decoration: line-through;
+}
+
+nav {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+
+a:link, a:visited, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  padding-left: 10px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+  color: white;
+}
+
+h2:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+}
+
+h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  border-left: 1px solid #ffffff;
+  padding-left: 10px;
+}
+
+ul {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0px;
+}
+
+.name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.name:hover {
+  /*display: inline-block;*/
+  /*color: #565656;*/
+  padding-left: 10px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+
+.bio {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+}
+
+/*img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.25;
+  filter: alpha(opacity=50);
+  position: relative;
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=100);
+}*/
+
+
+/*.col-md-6 {
+  padding-right: 0px;
+  padding-left: 0px;
+}*/
+
+/*.col-sm-8 {
+  padding-top: 150px;
+}*/
+
+.about-description {
+  padding-top: 50px;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*.header {
+  display: flex;
+  flex-direction: row;
+}*/
+
+.movie-tile {
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*width: 100%;*/
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  opacity: .3;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  position: relative;
+
+}
+
+.movie-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 8%;
+  position: absolute;
+}
+
+.movie-title {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+  color: white;
+  width: 50%;
+  margin-top: 10px;
+}
+
+
+.movie-details {
+  width: 200px;
+  padding-left: 5%;
+  flex-wrap: wrap;
+}
+
+.about-container {
+  margin-top: 5%;
+}
+
+.member-list {
+  margin-top: 5%;
+  padding-bottom: 200px;
+
+}
+
+hr {
+  border-width: 1px;
+}
+
+#moonlight {
+  background-image: url("../images/moonlight.jpg");
+}
+
+#moonlight:hover {
+  opacity: 1;
+}
+
+#blade-runner {
+  background-image: url("../images/blade-runner.jpg");
+}
+
+#blade-runner:hover {
+  opacity: 1;
+}
+
+#fantastic-mr-fox {
+  background-image: url("../images/fantastic-mr-fox.jpg");
+}
+
+#fantastic-mr-fox:hover {
+  opacity: 1;
+}
+
+#in-the-mood-for-love {
+  background-image: url("../images/in-the-mood-for-love.jpg");
+}
+
+#in-the-mood-for-love:hover {
+  opacity: 1;
+}
+
+#tampopo {
+  background-image: url("../images/tampopo.jpg");
+}
+
+#tampopo:hover {
+  opacity: 1;
+}
+
+#akira {
+  background-image: url("../images/akira.jpg");
+}
+
+#akira:hover {
+  opacity: 1;
+}
+
+#spirited-away {
+  background-image: url("../images/spirited-away.jpg");
+}
+
+#spirited-away:hover {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  
+  #about-page {
+    position: relative;
+  }
+
+  .about-description {
+    padding-top: 0px;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
